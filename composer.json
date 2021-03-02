@@ -1,0 +1,32 @@
+{
+  "name": "opxcore/response-interface",
+  "description": "The OpxCore response interface.",
+  "keywords": [
+    "opxcore",
+    "response",
+    "interface"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://opxcore.com",
+  "support": {
+    "issues": "https://github.com/opxcore/response-interface/issues",
+    "source": "https://github.com/opxcore/response-interface"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Response\\Interfaces\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
